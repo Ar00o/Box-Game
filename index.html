@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div class="app">
+        <div class="header">
+            <div class="time">Time: <span id="time">5.0</span></div>
+            <div class="result">Result: <span id="result">0</span></div>
+        </div>
+        <div class="content">
+            <div class="game" id="game"></div>
+            <button class="start" id="start">START</button>
+        </div>
+        <input type="number" id="change-time" value="5"  oninput="changeTimeFunc()">
+    </div>
+</body>
+</html>

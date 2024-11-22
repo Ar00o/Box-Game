@@ -1,0 +1,39 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app{
+    background-color: aqua;
+    padding: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.app .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.app .content .game{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    position: relative;
+    border: 5px solid black;
+}
+.app .content .start{
+    position: absolute;
+    padding: .5rem 1.2rem;
+    cursor: pointer;
+    
+}
